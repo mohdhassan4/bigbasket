@@ -1,0 +1,80 @@
+.bank_tit{
+  font-size: 30px;
+  font-weight: bold;
+}
+#bank{
+  cursor: pointer;
+  width: 100%;
+}
+#bank-6{
+  cursor: pointer;
+  width: 100%;
+}
+.overlay {
+  position: absolute;
+  top: 4px;
+  left: 20px;
+  width: 89%;
+  height: 97%;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+.overlay1 {
+  position: absolute;
+  top: 4px;
+  left: 20px;
+  width: 94%;
+  height: 98%;
+  
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.5s ease;
+}
+#cont:hover .overlay1 {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+
+#cont:hover .overlay {
+  display: block;
+  background: rgba(0, 0, 0, .3);
+}
+
+#img {
+  width: 100%;
+  
+}
+
+
+
+#cont:hover .title {
+  top: 90px;
+}
+
+.button {
+  position: absolute;
+  width: 100%;
+  left:0;
+  top: 100px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity .35s ease;
+}
+
+.button a, Link {
+  width: 100%;
+  padding: 12px 48px;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  border: solid 2px #84c225;
+  background-color: #84c225;
+  text-decoration: none !important;
+  z-index: 1;
+}
+#cont:hover .button {
+  opacity: 1;
+}
+

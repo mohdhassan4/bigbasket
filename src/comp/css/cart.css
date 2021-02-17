@@ -1,0 +1,40 @@
+#butt{
+    height: 40px;
+    width: 150px;
+    background-color: #84c225;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #84c225;
+    outline: none !important;
+}
+#butt1{
+    height: 40px;
+    width: 150px;
+    background-color: white;
+    color: #84c225;
+    font-weight: bold;
+    border: 1px solid #84c225;
+    outline: none !important;
+}
+#butt1:hover{
+    height: 40px;
+    width: 150px;
+    background-color: #84c225;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #84c225;
+    outline: none !important;
+}
+
+#input{
+    width: 50px;
+    height: 40px;
+    border: 1px solid #84c225;
+    color: #84c225;
+    font-weight: bold;padding-left: 13px;
+    outline: none !important;
+}
+.fa-truck , .del{
+    color: gray;
+    font-size: 15px;
+}
